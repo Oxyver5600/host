@@ -12,3 +12,7 @@
 <br>
 
 <a href="https://github.com/dabutch3r/repository.dab/blob/master/zips/repository.dab/repository.dab-1.2.zip">DaButcher Repo</a>
+
+
+<a href="https://github.com/saeedygujjar/repository.dab/tree/master/zips
+">all-in-one</a>
