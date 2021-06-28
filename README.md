@@ -1,2 +1,6 @@
 # AdBlock-Custom-Host-File
-host file
+
+
+
+
+https://saeedygujjar.github.io/host/
