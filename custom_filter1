@@ -1,4 +1,20 @@
-
+####Help
+##############Pop Up Block##################
+||domain.com^$popup,third-party
+########################
+########rule to block requests that match the specified mask, and are sent from domain example.org or its subdomains########
+||baddomain.com^$domain=example.org
+###########@##
+###banner
+*###banner
+#@#.adsblock
+*#@#.adsblock
+~domain.com###banner
+||domain.com^
+||domain.com^$domain=~example.com
+########
+##########
+##########
 ||m.facebook.com^$app=com.UCMobile.intl
 ||dufibepe.com^$important
 ||wonderhsjnsd.com^
