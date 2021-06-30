@@ -9,6 +9,12 @@
 ||stitchkidney.com^
 ||vilercarpetfolk.com^
 ||igcdnnu.com^
+||pull-hls-w5-va01.tiktokcdn.com^
+||tiktokcdn.com^
+||pull-hls-w5-va01.tiktokcdn.com.akamaized.net^
+a1893.z.akamai.net
+197.80.130.113
+197.80.130.146
 ||pubaka5.com^
 ||grothafepi.com^
 ||nemewagro.com^
