@@ -3,6 +3,8 @@
 
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
 ||cluster.awmdelivery.com^
+||ucweb.com^
+157.185.188.1
 ||red12flyw2.site^
 ||pop5sjhspear.com^
 ||gorgeouspresentation.com^
