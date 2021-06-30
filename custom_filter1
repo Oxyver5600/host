@@ -22,6 +22,9 @@
 ||m.facebook.com^$app=com.UCMobile.intl
 ||dufibepe.com^$important
 ||wonderhsjnsd.com^
+||snowdayonline.xyz^$important
+||snowdayonline.xyz^$third-party
+||snowdayonline.xyz^&popup,third-party
 ||us-ucdc-upaas.ucweb.com^
 ||global-tokenserver-la.headline.uodoo.com^$important
 ||attr.union.ucweb.com^
