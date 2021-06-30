@@ -12,6 +12,8 @@
 ~domain.com###banner
 ||domain.com^
 ||domain.com^$domain=~example.com
+######################Java##############
+############@@||example.com^$jsinject — disables javascript on pages at example.com and all subdomains#########
 ########
 ##########
 ##########
