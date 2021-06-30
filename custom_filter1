@@ -16,6 +16,10 @@
 ############@@||example.com^$jsinject — disables javascript on pages at example.com and all subdomains#########
 ########
 ##########
+######################Disables all generic cosmetic rules on pages that correspond to exception rule############
+################$$$@@||example.com^generichide — disables generic cosmetic rules on any pages at example.com and all subdomains####################
+#######Disables generic basic rules on pages that correspond to exception rule.######
+####$$$$$@@||example.com^$genericblock — disables generic basic rules on any pages at example.com and all subdomains.######
 ##########
 ||speedporn.net^$popup
 ||speeedporn.pw^$popup
