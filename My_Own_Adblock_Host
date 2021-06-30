@@ -1,61 +1,89 @@
+####Help
+##############Pop Up Block##################
+||domain.com^$popup,third-party
+########################
+########rule to block requests that match the specified mask, and are sent from domain example.org or its subdomains########
+||baddomain.com^$domain=example.org
+###########@##
+###banner
+*###banner
+#@#.adsblock
+*#@#.adsblock
+~domain.com###banner
+||domain.com^
+||domain.com^$domain=~example.com
+######################Java##############
+############@@||example.com^$jsinject — disables javascript on pages at example.com and all subdomains#########
+########
+##########
+######################Disables all generic cosmetic rules on pages that correspond to exception rule############
+################$$$@@||example.com^generichide — disables generic cosmetic rules on any pages at example.com and all subdomains####################
+#######Disables generic basic rules on pages that correspond to exception rule.######
+####$$$$$@@||example.com^$genericblock — disables generic basic rules on any pages at example.com and all subdomains.######
+##########
+||speedporn.net^$popup
+||speeedporn.pw^$popup
+||speedporn.pw^$popup,third-party
+||speedporn.net^$popup,third-party
+||m.facebook.com^$app=com.UCMobile.intl
+||dufibepe.com^$important
+||wonderhsjnsd.com^
+||snowdayonline.xyz^$important
+||snowdayonline.xyz^$third-party
+||snowdayonline.xyz^&popup,third-party
+||us-ucdc-upaas.ucweb.com^
+||global-tokenserver-la.headline.uodoo.com^$important
+||attr.union.ucweb.com^
+||cdn.sb-inv1.com^$important
+||gallonranchwhining.com^$important
+||chuckledinadmissible.com^
+||91.194.110.13:443^
+||wcrgl.adultgames.fun/hit.php?s=458&p=1&a=105058&t=0&c=3334671&bo=1&bon=straight&extra=AbsatmBZZAIAWkG7Az4bPlggAmIfunkAzzHj7QAAAAAAAAAAAAAAAA$domain=sxyprn.net
+||wcrgl.adultgames.fun^$domain=sxyprn.net,important
+||168.235.197.4:80^$important
+||la4-userver-upaas.ucweb.com^
+||168.235.197.4:80^$important
+||168.235.197.4^$important
+||168.235.197.4/?ucid=0M3Vq8JlAXkEZEcKe1wFYABkRg9+XAh0BWVGFS9eAXkLbkMK
+||px-intl.ucweb.com^$important
+||t.bonertraffic.info^$important
+||1-88-69-2.b.cdn13.com^$important
+||vcdn.rivertraffic.com^$important
+||freehotadultgames.com^
+||168.235.198.1:80^$app=com.UCMobile.intl
+||l.vmplayer2019.com^$app=com.playit.videoplayer
+||api19-normal-c-alisg.tiktokv.com^$app=com.zhiliaoapp.musically,important
+||assets.remerge.io^$app=com.hatunnel.plus,important
+||takealot.com^$app=com.hatunnel.plus,important
+||imasdk.googleapis.com^$app=com.hatunnel.plus,important
+||googlevideo.com^$app=com.hatunnel.plus,important
+||r1---sn-jxaaj15-wocl.googlevideo.com^$app=com.hatunnel.plus
+||s3.amazonaws.com^$important
+||www.google.cn^$app=com.playit.videoplayer
+||graph.facebook.com^$app=com.gaana
+||^$popup,domain=dood.so,important
+||vuukle.com^$important
+||api.vmplayer2019.com/api/appconfig/config/get$app=com.playit.videoplayer,important
+||pdisk.net/],%20.sidebar_ads-300x250,%20.yellow_ad,%20.search_inline_web_ad,%20.inline-ad-wrap,%20.runner-ad,%20.ts-ad-leaderboard,%20.sidebar-ad-a,%20.sidebar-ad-b,%20.sidebar-ad-c,%20$app=root
+||s1.wp.com^$important
+||web.facebook.com^$app=com.lenovo.anyshare.gps,important
+||api.rqmob.com^$important
+||web.facebook.com^$app=com.playit.videoplayer
+||www.pullcf.com^$important
+||push-img.wshareit.com^$important
+||dt.beyla.site^$important
+||www.pullcm.com^$important
+||push-img.wshareit.com^$important
+||pdisk.net/],%20.adbox-border-desk,%20$app=root,important
+||polyfill.io^$important
+||polyfill.io^$important
+||graph.facebook.com^$app=com.UCMobile.intl
+||acs.maribacaberita.com^$important
+(function() {if (document) {document.querySelectorAll('img[src$="iframe.php?idzone=4236666&size=300x100"], img[srcset$="iframe.php?idzone=4236666&size=300x100"], picture > source[src$="iframe.php?idzone=4236666&size=300x100"], picture > source[srcset$="iframe.php?idzone=4236666&size=300x100"], video > source[src$="iframe.php?idzone=4236666&size=300x100"], video > source[srcset$="iframe.php?idzone=4236666&size=300x100"], audio > source[src$="iframe.php?idzone=4236666&si
 https://filters.adtidy.org/extension/ublock/filters/2_optimized.txt
 
 
-@@||inspectorstrongerpill.com/z6429rj4i?key=4822bbf634035f22633d80af73b9e65f&psid=puadultall$document
-@@||cdn.jsdelivr.net/npm/yandex-metrica-watch/watch.js$script,domain=naughtyblog.org
-@@||google-analytics.com^$domain=www.naughtyblog.org
-@@||cdn.tynt.com/tc.js$script,domain=m.fxporn.net
-@@||myporn.club/torrents/hits/week$document,domain=myporn.club
-@@||google-analytics.com^$xhr,domain=m.fxporn.net
-idsbaefm.com
-@@||inspectorstrongerpill.com/nkmyu40g3n?key=dbbd47bbe0770ee0268712f60eccc004&psid=pwpopnetwork$document,domain=inspectorstrongerpill.com
-@@||www.googletagmanager.com/gtm.js?id=GTM-WGBLX6P$script,domain=www.naughtyblog.orgl
-https://idsbaefm.com/frHopd.htm?_=e4%20AdscoreInit%20is%20not%20defined&v=4&cFSeBRqP=3881765&minBid=&RZjTqpBN=0,0&UxvoqYtc=&IhZiGQpk=https%3A%2F%2Fdoodstream.com%2Fd%2F17n2aigpejn4&s=424,918,0.6144927536231884,260.5449275362319,564.104347826087,1$important
-@@||jsdelivr.net^$domain=www.naughtyblog.org
-@@||www.google.com/recaptcha/*$other
-https://4.adsco.re/$important
-franklybundlecarver.com
-@@||stats.wp.com/e-202115.js$script,domain=www.naughtyblog.org
-@@||www.google.com/recaptcha/api2/anchor?ar=1&k=6LfC-5wUAAAAAOTPkb6pVHH_1Glp3fO3o2vmavhJ&co=aHR0cDovL3N4eXBybi5uZXQ6ODA.&hl=en&v=mrdLhN7MywkJAAbzddTIjTaM&theme=light&size=normal&cb=qxlr16ghrqce$other,domain=sxyprn.net
-||^$popup,domain=doodstream.com,important
-@@||cdn.jsdelivr.net/npm/yandex-metrica-watch/watch.js$script,domain=www.naughtyblog.org
-@@||cdn.jsdelivr.net/npm/yandex-metrica-watch/watch.js$domain=www.naughtyblog.org
-https://optionneigh.com/7fee74da2eacb7cbea8415860fe3a0bb/invoke.js$important
-||addthis.com^$script,important
-@@||t.dtscout.com/i/?l=http%3A%2F%2Fm.fxporn.net%2Fchannel%2Fnatalia-starr%2F4&j=$other,domain=m.fxporn.net
-@@||trtjigpsscmv9epe10.com/i/npage/1805969/code.js$script,domain=m.fxporn.net
-||^$popup,domain=streamtape.com,important
-||^$popup,domain=pornxday.com,important
-@@||a.adtng.com/get/10002988?time=1555076171806$other,domain=m.fxporn.net
-@@||www.google-analytics.com/analytics.js$domain=www.naughtyblog.org
-||^$popup,domain=www.pornxday.com,important
-@@||google.com^
-cdn.rtclx.com
-@@||hd.crichd.cx/ten-sports-live-streaming$document,domain=hd.crichd.cx
-@@||www.google.com/recaptcha/api2/anchor?ar=1&k=6LfC-5wUAAAAAOTPkb6pVHH_1Glp3fO3o2vmavhJ&co=aHR0cDovL3N4eXBybi5uZXQ6ODA.&hl=en&v=mrdLhN7MywkJAAbzddTIjTaM&theme=light&size=normal&cb=qxlr16ghrqce$domain=sxyprn.net
-https://thewowfeed.com/?track=aHR0cHM6Ly9iZXRzaHVja2xlYW4uY29tLzQvMzUyOTMzMy8_dmFyPTE1MjY2MjMw&meta-id=NDczNDA2&brandSafe=1&rsz=15266230&cd_meta_crid=57744&meta-tracking-id=17482308&s=6f940429d82f73615bb526a0af7d0eba&z=15266230&b={bannerid}&g={geo}&svar={timestamp}&ssk={timestamp_key}&oaid={oaid}&did={deviceid}&campid={campaignid}$important
-@@||googletagmanager.com^
-||^$popup,domain=wolfstream.tv,important
-@@||t.dtscout.com/i/?l=http%3A%2F%2Fm.fxporn.net%2Fvideo%2Fnatalia-starr-i-know-that-girl&j=http%3A%2F%2Fm.fxporn.net%2Fchannel%2Fnatalia-starr%2F5$other,domain=m.fxporn.net
-https://cdn.rtclx.com/t/?s=557&ts=1619151708089&a=6b7c6b0aa3eb11ebb0580242ac110003&b=6b7c6b0aa3eb11ebb0580242ac110003-17535&r=https%3A%2F%2Fs.rszimg.com%2Fsimg%3Fk%3D%252Fimg%252Fcfda674b-bf15-4bc8-bba8-68e0bca3857f.png%26rw%3D1%26rh%3D1%26mxw%3D2048$important
-@@||www.google.com/recaptcha/api2/anchor?ar=1&k=6LfC-5wUAAAAAOTPkb6pVHH_1Glp3fO3o2vmavhJ&co=aHR0cDovL3N4eXBybi5uZXQ6ODA.&hl=en&v=mrdLhN7MywkJAAbzddTIjTaM&theme=light&size=normal&cb=qxlr16ghrqce$other
-@@||www.googletagmanager.com/gtag/js?id=UA-22174836-1$other,domain=www.naughtyblog.org
-@@||rum-static.pingdom.net/prum.min.js$script,domain=www.naughtyblog.org
-@@||wolfstream.tv/twos.js$script,domain=wolfstream.tv
-@@||ulukaris.com/ssp/req/1831584/?pb=5f9a193477d5ca6628043f66e0a82d751618963534&psp=5dlveub2w3YN8v6hIJuRTGJjMJpjjfGfRglX4aeAUznba7RkEC-CUqeu4fk-iNweJWk3oHJ0Esh-V2FGxJJbIMLlmdmmsqMh-PsOChJyAm008grDBI7P4DiBNZymCmBZh1Zh6VTwDHhtb2xfFeU_e8HDtaI81fyqs2bedm6nXN9ykU6binmaFikO8Ubn-PDvQ7bRWs6qLGeEP7bR940WA1Mg2AfFqxEM7SJS8HfTlevYcpBomeaW3TjdzqxPpYEc2s-MBqV4qlnHO2r-FUl--YG_SuET85G_E5IOzVg9nmBXhjQYtAriBtr2L0zqdcRDni7PTaWQND-LmeFZIl-gTvdLvaZyrkT3zz2yv4u7nCT1pm0d-IhHP0v7GX8X3XQ4LLAvQbEGlcD829HtOXmytYavIFQSRB44AxUI_hUqI7U-Zv7IW_IyDjo9-V2U2ptGMMaeW63bMAoW7SFRpbuNJOfsLgKOsdNQQiYQhRGUrs8ofbARyBxDqVH_2qrZweiwaL4FAwSyL08Xw602zJQF9WQ27dSXy811X4UV4clUlYozKIorb58OV6SREHX7wSyU1wI8QnhOi-i13jdJQLfNk_FdoUHXGkIQp0nRN-JOQ9fhfIplegnQiDjERF2iBBK2HLgGULJ8J3IZlrg-wPVQMKBA7-SGjjIE-r-WfmtaeASli9WN455-qwaXM-q3SOhDlKTsYLztjrOP-rUqiDArTH9Pp3grD3BFj-7juB9jvBaNHhsdEcbMaIvI1jz_5lbjGPmMoLtj8aQTqDyHFYjZePHuac1Y&sp=2&cb=_clvw66ks0f4k5wg0qs2xsj&nojs=0&ix=0&t=1&x=801&y=801&wcks=1&wgl=1&cnvs=1&os=-120&md=0&lang=en-ZA$other,domain=m.fxporn.net
-@@||www.google.com/recaptcha/*
-@@||whos.amung.us/pingjs/?k=go905za8c6z5&t=Busty%20Natalia%20Starr%20Sucks%20Cock%20Video%20%26%20Natalia%20Starr%20-%20I%20Know%20That%20Girl%20mobile%20p&c=c&x=http%3A%2F%2Fm.fxporn.net%2Fvideo%2Fnatalia-starr-i-know-that-girl&y=http%3A%2F%2Fm.fxporn.net%2Fchannel%2Fnatalia-starr%2F5&a=0&d=0.821&v=27&r=1499$other,domain=m.fxporn.net
-||disqus.com/embed/*$other,important
-||^$popup,domain=wolfstream.tv,important
-glassmilheart.com
-||addthis.com^$important
-||franklybundlecarver.com/ren.gif?sid=H4sIAAAAAAAC%2F1xSTYgcRRit2dl4UBF%2FEK+NpwRl0tPdszNtDmETTbJml6zZlWA8VVdV75RT3dVUdU9vVg%2FBKOY4By966n2z7iYxEUQQEQSd9SJBIXPbyx4lXgRv3pSZHVjxg6r3%2FbyC9z3q4+3ikDRQ0INbK3pLKkVPtxquc3JZpsXmGWcx5UZL7oRnnETn2mhFHZ0KJ9OlMKecxSxT4pqILsv8dMtvN%2FwF5+TlS+sry686SvaEc1Gwnj7lnO8anYjTnbDhNgK%2FEzaabstZ0ZFUwlmjMTVy9hoye9B0vcbCQqPpuo1WiE3zv4Yt6rC0Dt4%2FJM9D8vF8b+99SDZCmty9kgpndSINfX5nZSYYCf%2FPIDZ1xOm9tYSafLWrUwFtx6S2%2Fi50ujdbF7o%2FDBsuIjkmtb3riNIHRyvMRCPqoxMiUhApIv4Uyv4IQo0g6QhM34Lkj8ifYBzXF5Em99d0kXedxdhIRo84dMIZkxPffAdZjsmJf35CmuxdEkavC4XNuILcHEFujJAVI+Rbc5DlPlj+IST%2FjTzz9hMT+jWZRzTtQfJqaoCUI8h4BCUGoLaGYnJkDUVcQ5HVkPADR0QtFrdbvhuFwmuFjMYi9Fns+b5HeegyFGwibYA8G4CpAZj5aDfj3bzX38lNIe4c5UE4rXaKlNltb3cCQbjtITM30ZMDmOJH2G4Fy+uw+ZjU3rqJPq9QCoLSEpSUoJQEZU5Q9qsvuLKerXa5skXUnKE3Q7%2Fazg7Jc1PDHv%2F1LXriwAmYcMO45baFaAYd3+d+q92K%2FabbdgOf+jGsrCDt3NSHLTkmLySPkckxmfvgHUR0H1btg8kXQYsmaDlsey5odxh0XGylX9ncCJrkNBMNphNwXSHL55HfqG2rQ%2FLSVMnL8xch2MOzu5+8Mvf00vdgpkJmKrwnfybYULeHV3VJdq7q0pKvr2S5TOQWzaVO13Kai%2Fq9y+JGqQ1fet0O7i6yyWCS3l8XNl+mKZfphiVfnpOcC3NBGybID0v2mohWC9s9V5i0yJZXz19YSjIjrJU6HYHKR1f+BpNjMr%2F02vTnPvvr75BmBFNUSIqHZBaQeh8suwmbHau3ug6jjjlRVkdZVEPjRcdNJQmUOK5pVG3b29gwHmh+C2lSoW8q9FUFqgawxZPDPDMPz%2F7y2SQ+R6Tmh5Ey8zuRMurTiYVvjsmp839MzZxcb8DKA0fQNl8IFlwmvA4NAiGigLudQIjQ5e2FFv8XAAD%2F%2FwEAAP%2F%2Fn9Rf5rMEAAA=$image,domain=streamtape.com,important
-@@||googletagmanager.com^$script
-@@||cdn.tynt.com/tc.js$script
-@@||www.google.com/recaptcha/*$other,domain=sxyprn.net
-https://franklybundlecarver.com/ren.gif?sid=H4sIAAAAAAAC%2F1yST2gcVRzH3yZbDyriH8Tr4KlF2c7OzGZ37KGk1baxCY1NpFhPb957k33um3nDezM7afRQrGKPe%2FCip8l3Y9LWVhBBRBB040WKQveWSy5e6kXw5k3ZzULEHwy%2Ff9+Bz+%2FL+3i7OCQNFPTg1orekkrR062G65xclmmxecZZTLnRkjvhGSfRuTZaUUenwsl0KcwpZzHLlLgmossyP93y2w1%2FwTl5+dL6yvKrjpI94VwUrKdPOee7RifidCdsuI3A74SNpttyVnQklXDWaEyNnP0NmT1oul5jYaHRdN1GK8Sm+d%2FAFvOwdB68f0ieh+Tjem%2FvfUg2QprcvZIKZ3WChj6%2FszIDRsL%2Fs4jNPOL03lpCTb7a1amAtmNSW38XOt2bnQvdH4YNF5Eck9redUTpg6MTZtCI+uiEiBREiog%2FhbI%2FglAjSDoC07cg+SPyJxjH9UWkyf01XeRdZzE2ktEjDZ1oxuTEN99BlmNy4p+fkCZ7l4TR60JhM64gN0eQGyNkxQj51hxkuQ+WfwjJfyPPvP3ERH5N5hFNe5C8mhog5QgyHkGJAaitoZh8soYirqHIakj4gSOiFovbLd+NQuG1QkZjEfos9nzfozx0GQo2QRsgzwZgagBmPtrNeDfv9XdyU4g7R3UQTrudImV229udpCDc9pCZm+jJAUzxI2y3guXzsPmY1N66iT6vUAqC0hKUlKCUBGVOUParL7iynq12ubJF1Jxlb5b9ajs7JM9NDXv817foiQMnYMIN45bbFqIZdHyf+612K%2FabbtsNfOrHsLKCtHNTH7bkmLyQPEYmx2Tug3cQ0X1YtQ8mXwQtmqDlsO25oN1h0HGxlX5lcyNoktNMNJhOwHWFLK8jv1HbVofkpSnJy%2FU3INjDs7ufvDL39NL3YKZCZiq8J38m2FC3h1d1SXau6tKSr69kuUzkFs2lTtdymov5e5fFjVIbvvS6HdxdZJPFpLy%2FLmy+TFMu0w1LvjwnORfmgjZMkB+W7DURrRa2e64waZEtr56%2FsJRkRlgrdToClY+u%2FA0mx6S+9Nr05T776++QZgRTVEiKh2QWkHofLLsJmx3TWz0Po441UVZHWVRD40XHQyUJlDjuaVRt29vYMB5ofgtpUqFvKvRVBaoGsMWTwzwzD8%2F+8tkkPkek6sNImfpOpIz6dGLhm2Ny6vwfk+rikaNWHjiCtvlCsOAy4XVoEAgRBdztBEKELm8vtPi%2FAAAA%2F%2F8BAAD%2F%2F3v1QIKzBAAA$important
-@@||dmmzkfd82wayn.cloudfront.net/?kzmmd=761186$other,domain=megaup.net
-4.adsco.re
+
 ||^$popup,domain=streamtape.com,important
 @@||tynt.com^$script,domain=m.fxporn.net
 https://franklybundlecarver.com/ren.gif?sid=H4sIAAAAAAAC%2F1xSTYgcRRit2dl4UBF%2FEK+NpwRl0tPdszNtDmETTbJml6zZlWA8VVdV75RT3dVUdU9vVg%2FBKOY4By966n2z7iYxEUQQEQSd9SJBIXPbyx4lXgRv3pSZHVjxg6r3%2FbyC9z3q4+3ikDRQ0INbK3pLKkVPtxquc3JZpsXmGWcx5UZL7oRnnETn2mhFHZ0KJ9OlMKecxSxT4pqILsv8dMtvN%2FwF5+TlS+sry686SvaEc1Gwnj7lnO8anYjTnbDhNgK%2FEzaabstZ0ZFUwlmjMTVy9hoye9B0vcbCQqPpuo1WiE3zv4Yt6rC0Dt4%2FJM9D8vF8b+99SDZCmty9kgpndSINfX5nZSYYCf%2FPIDZ1xOm9tYSafLWrUwFtx6S2%2Fi50ujdbF7o%2FDBsuIjkmtb3riNIHRyvMRCPqoxMiUhApIv4Uyv4IQo0g6QhM34Lkj8ifYBzXF5Em99d0kXedxdhIRo84dMIZkxPffAdZjsmJf35CmuxdEkavC4XNuILcHEFujJAVI+Rbc5DlPlj+IST%2FjTzz9hMT+jWZRzTtQfJqaoCUI8h4BCUGoLaGYnJkDUVcQ5HVkPADR0QtFrdbvhuFwmuFjMYi9Fns+b5HeegyFGwibYA8G4CpAZj5aDfj3bzX38lNIe4c5UE4rXaKlNltb3cCQbjtITM30ZMDmOJH2G4Fy+uw+ZjU3rqJPq9QCoLSEpSUoJQEZU5Q9qsvuLKerXa5skXUnKE3Q7%2Fazg7Jc1PDHv%2F1LXriwAmYcMO45baFaAYd3+d+q92K%2FabbdgOf+jGsrCDt3NSHLTkmLySPkckxmfvgHUR0H1btg8kXQYsmaDlsey5odxh0XGylX9ncCJrkNBMNphNwXSHL55HfqG2rQ%2FLSVMnL8xch2MOzu5+8Mvf00vdgpkJmKrwnfybYULeHV3VJdq7q0pKvr2S5TOQWzaVO13Kai%2Fq9y+JGqQ1fet0O7i6yyWCS3l8XNl+mKZfphiVfnpOcC3NBGybID0v2mohWC9s9V5i0yJZXz19YSjIjrJU6HYHKR1f+BpNjMr%2F02vTnPvvr75BmBFNUSIqHZBaQeh8suwmbHau3ug6jjjlRVkdZVEPjRcdNJQmUOK5pVG3b29gwHmh+C2lSoW8q9FUFqgawxZPDPDMPz%2F7y2SQ+R6Tmh5Ey8zuRMurTiYVvjsmp839MzZxcb8DKA0fQNl8IFlwmvA4NAiGigLudQIjQ5e2FFv8XAAD%2F%2FwEAAP%2F%2Fn9Rf5rMEAAA=$important
@@ -102,16 +130,6 @@ s21.trafficdeposit.com
 ||polyfill.io^$important
 ||graph.facebook.com^$app=com.UCMobile.intl
 ||acs.maribacaberita.com^$important
-(function() {if (document) {document.querySelectorAll('img[src$="iframe.php?idzone=4236666&size=300x100"], img[srcset$="iframe.php?idzone=4236666&size=300x100"], picture > source[src$="iframe.php?idzone=4236666&size=300x100"], picture > source[srcset$="iframe.php?idzone=4236666&size=300x100"], video > source[src$="iframe.php?idzone=4236666&size=300x100"], video > source[srcset$="iframe.php?idzone=4236666&size=300x100"], audio > source[src$="iframe.php?idzone=4236666&size=300x100"], audio > source[srcset$="iframe.php?idzone=4236666&size=300x100"]').forEach(el => {if(el.localName === "frame"){el.style.setProperty("visibility", "hidden", "important");} else {el.style.setProperty("display", "none", "important");}});}})();
-(function() {if (document) {document.querySelectorAll('img[src$="iframe.php?idzone=4236676&size=300x100"], img[srcset$="iframe.php?idzone=4236676&size=300x100"], picture > source[src$="iframe.php?idzone=4236676&size=300x100"], picture > source[srcset$="iframe.php?idzone=4236676&size=300x100"], video > source[src$="iframe.php?idzone=4236676&size=300x100"], video > source[srcset$="iframe.php?idzone=4236676&size=300x100"], audio > source[src$="iframe.php?idzone=4236676&size=300x100"], audio > source[srcset$="iframe.php?idzone=4236676&size=300x100"]').forEach(el => {if(el.localName === "frame"){el.style.setProperty("visibility", "hidden", "important");} else {el.style.setProperty("display", "none", "important");}});}})();
-(function() {if (document) {document.querySelectorAll('img[src$="gtag/js?id=UA-175507756-1"], img[srcset$="gtag/js?id=UA-175507756-1"], picture > source[src$="gtag/js?id=UA-175507756-1"], picture > source[srcset$="gtag/js?id=UA-175507756-1"], video > source[src$="gtag/js?id=UA-175507756-1"], video > source[srcset$="gtag/js?id=UA-175507756-1"], audio > source[src$="gtag/js?id=UA-175507756-1"], audio > source[srcset$="gtag/js?id=UA-175507756-1"]').forEach(el => {if(el.localName === "frame"){el.style.setProperty("visibility", "hidden", "important");} else {el.style.setProperty("display", "none", "important");}});}})();
-(function() {if (document) {document.querySelectorAll('img[src$="feed/?zid=5804&ver=1&cnt=1"], img[srcset$="feed/?zid=5804&ver=1&cnt=1"], picture > source[src$="feed/?zid=5804&ver=1&cnt=1"], picture > source[srcset$="feed/?zid=5804&ver=1&cnt=1"], video > source[src$="feed/?zid=5804&ver=1&cnt=1"], video > source[srcset$="feed/?zid=5804&ver=1&cnt=1"], audio > source[src$="feed/?zid=5804&ver=1&cnt=1"], audio > source[srcset$="feed/?zid=5804&ver=1&cnt=1"]').forEach(el => {if(el.localName === "frame"){el.style.setProperty("visibility", "hidden", "important");} else {el.style.setProperty("display", "none", "important");}});}})();
-(function() {if (document) {document.querySelectorAll('img[src$=""], img[srcset$=""], picture > source[src$=""], picture > source[srcset$=""], video > source[src$=""], video > source[srcset$=""], audio > source[src$=""], audio > source[srcset$=""]').forEach(el => {if(el.localName === "frame"){el.style.setProperty("visibility", "hidden", "important");} else {el.style.setProperty("display", "none", "important");}});}})();
-@@||yps.link/login/twlogin.php?cururl=https%3A%2F%2Fsxyprn.com%2F$document,domain=yps.link
-@@||yps.link/login/tw.php?oauth_token=mttTxgAAAAAA6lERAAABeX_DmnE&oauth_verifier=v92ubswotrLXBcJFTqVu81Fu2FyYG8YI$document,domain=yps.link
-@@||yps.link/login/tw.php?oauth_token=qS0uqQAAAAAA6lERAAABeX_D_OA&oauth_verifier=paS73Cvu71o4Qvl8QUE6ke7TVIZfjdJU$document,domain=yps.link
-(function() {if (document) {document.querySelectorAll('img[src$="gd/9299?md=weiEmI6kDN0gDLiMnI6ICNyQDe5EDOiwiIiJiOiQzMwgHOwAjIsIiciojIoRHdwNnOv8yNzRXYyhGZuIWarV2LiwiIoJiO3YDOywiIsJiOiUmbiwiI0JiOtEjMwwiI6JiOzgTN1wiIrJiO0wiI1JiOiICLiYmI6YWYsNXZsISZiojIyEmd55ma4kzZ0BXNsh2biwiIvJiOmFGbzVGLi0mI6EjNyEzM4cjM5UjN0kDLicnI6ISJ3IUJyIDdpRHblViMyUyMBViMyEDOlIjQlIDMOFGd1JXYsViMwIUZhVHdpV2clIDMxITJyAjMwITMlIDMF52Zsl2coViMw00b2lWZlIDMIRkUpBXJyATJFJTJ4ATJ5MTJyITJyMUJyIzall3dvJHZzViMyUyMBVSNCVSNEVyNEJSf"], img[srcset$="gd/9299?md=weiEmI6kDN0gDLiMnI6ICNyQDe5EDOiwiIiJiOiQzMwgHOwAjIsIiciojIoRHdwNnOv8yNzRXYyhGZuIWarV2LiwiIoJiO3YDOywiIsJiOiUmbiwiI0JiOtEjMwwiI6JiOzgTN1wiIrJiO0wiI1JiOiICLiYmI6YWYsNXZsISZiojIyEmd55ma4kzZ0BXNsh2biwiIvJiOmFGbzVGLi0mI6EjNyEzM4cjM5UjN0kDLicnI6ISJ3IUJyIDdpRHblViMyUyMBViMyEDOlIjQlIDMOFGd1JXYsViMwIUZhVHdpV2clIDMxITJyAjMwITMlIDMF52Zsl2coViMw00b2lWZlIDMIRkUpBXJyATJFJTJ4ATJ5MTJyITJyMUJyIzall3dvJHZzViMyUyMBVSNCVSNEVyNEJSf"], picture > source[src$="gd/9299?md=weiEmI6kDN0gDLiMnI6ICNyQDe5EDOiwiIiJiOiQzMwgHOwAjIsIiciojIoRHdwNnOv8yNzRXYyhGZuIWarV2LiwiIoJiO3YDOywiIsJiOiUmbiwiI0JiOtEjMwwiI6JiOzgTN1wiIrJiO0wiI1JiOiICLiYmI6YWYsNXZsISZiojIyEmd55ma4kzZ0BXNsh2biwiIvJiOmFGbzVGLi0mI6EjNyEzM4cjM5UjN0kDLicnI6ISJ3IUJyIDdpRHblViMyUyMBViMyEDOlIjQlIDMOFGd1JXYsViMwIUZhVHdpV2clIDMxITJyAjMwITMlIDMF52Zsl2coViMw00b2lWZlIDMIRkUpBXJyATJFJTJ4ATJ5MTJyITJyMUJyIzall3dvJHZzViMyUyMBVSNCVSNEVyNEJSf"], picture > source[srcset$="gd/9299?md=weiEmI6kDN0gDLiMnI6ICNyQDe5EDOiwiIiJiOiQzMwgHOwAjIsIiciojIoRHdwNnOv8yNzRXYyhGZuIWarV2LiwiIoJiO3YDOywiIsJiOiUmbiwiI0JiOtEjMwwiI6JiOzgTN1wiIrJiO0wiI1JiOiICLiYmI6YWYsNXZsISZiojIyEmd55ma4kzZ0BXNsh2biwiIvJiOmFGbzVGLi0mI6EjNyEzM4cjM5UjN0kDLicnI6ISJ3IUJyIDdpRHblViMyUyMBViMyEDOlIjQlIDMOFGd1JXYsViMwIUZhVHdpV2clIDMxITJyAjMwITMlIDMF52Zsl2coViMw00b2lWZlIDMIRkUpBXJyATJFJTJ4ATJ5MTJyITJyMUJyIzall3dvJHZzViMyUyMBVSNCVSNEVyNEJSf"], video > source[src$="gd/9299?md=weiEmI6kDN0gDLiMnI6ICNyQDe5EDOiwiIiJiOiQzMwgHOwAjIsIiciojIoRHdwNnOv8yNzRXYyhGZuIWarV2LiwiIoJiO3YDOywiIsJiOiUmbiwiI0JiOtEjMwwiI6JiOzgTN1wiIrJiO0wiI1JiOiICLiYmI6YWYsNXZsISZiojIyEmd55ma4kzZ0BXNsh2biwiIvJiOmFGbzVGLi0mI6EjNyEzM4cjM5UjN0kDLicnI6ISJ3IUJyIDdpRHblViMyUyMBViMyEDOlIjQlIDMOFGd1JXYsViMwIUZhVHdpV2clIDMxITJyAjMwITMlIDMF52Zsl2coViMw00b2lWZlIDMIRkUpBXJyATJFJTJ4ATJ5MTJyITJyMUJyIzall3dvJHZzViMyUyMBVSNCVSNEVyNEJSf"], video > source[srcset$="gd/9299?md=weiEmI6kDN0gDLiMnI6ICNyQDe5EDOiwiIiJiOiQzMwgHOwAjIsIiciojIoRHdwNnOv8yNzRXYyhGZuIWarV2LiwiIoJiO3YDOywiIsJiOiUmbiwiI0JiOtEjMwwiI6JiOzgTN1wiIrJiO0wiI1JiOiICLiYmI6YWYsNXZsISZiojIyEmd55ma4kzZ0BXNsh2biwiIvJiOmFGbzVGLi0mI6EjNyEzM4cjM5UjN0kDLicnI6ISJ3IUJyIDdpRHblViMyUyMBViMyEDOlIjQlIDMOFGd1JXYsViMwIUZhVHdpV2clIDMxITJyAjMwITMlIDMF52Zsl2coViMw00b2lWZlIDMIRkUpBXJyATJFJTJ4ATJ5MTJyITJyMUJyIzall3dvJHZzViMyUyMBVSNCVSNEVyNEJSf"], audio > source[src$="gd/9299?md=weiEmI6kDN0gDLiMnI6ICNyQDe5EDOiwiIiJiOiQzMwgHOwAjIsIiciojIoRHdwNnOv8yNzRXYyhGZuIWarV2LiwiIoJiO3YDOywiIsJiOiUmbiwiI0JiOtEjMwwiI6JiOzgTN1wiIrJiO0wiI1JiOiICLiYmI6YWYsNXZsISZiojIyEmd55ma4kzZ0BXNsh2biwiIvJiOmFGbzVGLi0mI6EjNyEzM4cjM5UjN0kDLicnI6ISJ3IUJyIDdpRHblViMyUyMBViMyEDOlIjQlIDMOFGd1JXYsViMwIUZhVHdpV2clIDMxITJyAjMwITMlIDMF52Zsl2coViMw00b2lWZlIDMIRkUpBXJyATJFJTJ4ATJ5MTJyITJyMUJyIzall3dvJHZzViMyUyMBVSNCVSNEVyNEJSf"], audio > source[srcset$="gd/9299?md=weiEmI6kDN0gDLiMnI6ICNyQDe5EDOiwiIiJiOiQzMwgHOwAjIsIiciojIoRHdwNnOv8yNzRXYyhGZuIWarV2LiwiIoJiO3YDOywiIsJiOiUmbiwiI0JiOtEjMwwiI6JiOzgTN1wiIrJiO0wiI1JiOiICLiYmI6YWYsNXZsISZiojIyEmd55ma4kzZ0BXNsh2biwiIvJiOmFGbzVGLi0mI6EjNyEzM4cjM5UjN0kDLicnI6ISJ3IUJyIDdpRHblViMyUyMBViMyEDOlIjQlIDMOFGd1JXYsViMwIUZhVHdpV2clIDMxITJyAjMwITMlIDMF52Zsl2coViMw00b2lWZlIDMIRkUpBXJyATJFJTJ4ATJ5MTJyITJyMUJyIzall3dvJHZzViMyUyMBVSNCVSNEVyNEJSf"]').forEach(el => {if(el.localName === "frame"){el.style.setProperty("visibility", "hidden", "important");} else {el.style.setProperty("display", "none", "important");}});}})();
-(function() {if (document) {document.querySelectorAll('img[src$="1clkn/10770"], img[srcset$="1clkn/10770"], picture > source[src$="1clkn/10770"], picture > source[srcset$="1clkn/10770"], video > source[src$="1clkn/10770"], video > source[srcset$="1clkn/10770"], audio > source[src$="1clkn/10770"], audio > source[srcset$="1clkn/10770"]').forEach(el => {if(el.localName === "frame"){el.style.setProperty("visibility", "hidden", "important");} else {el.style.setProperty("display", "none", "important");}});}})();
 gjqhufkamcoc.com
 https://gjqhufkamcoc.com/qk.html?_=e4%20AdscoreInit%20is%20not%20defined&v=4&gMjorfix=4595327&minBid=&WyFkPQjo=0:1,0&CQbeWZjY=&dJYSorjR=https%3A%2F%2Fskymovieshd.kim%2Fmovie%2FFareb-(2021)-UNRATED-720p-HEVC-HDRip-WOOW-Originals-Hindi-Short-Film-x265-AAC-%255b200MB%255d.html&s=424,918,1,424,918,0
 ||gjqhufkamcoc.com/qk.html?_=e4%20AdscoreInit%20is%20not%20defined&v=4&gMjorfix=4595327&minBid=&WyFkPQjo=0:1,0&CQbeWZjY=&dJYSorjR=https%3A%2F%2Fskymovieshd.kim%2Fmovie%2FFareb-(2021)-UNRATED-720p-HEVC-HDRip-WOOW-Originals-Hindi-Short-Film-x265-AAC-%255b200MB%255d.html&s=424,918,1,424,918,0$other,domain=skymovieshd.kim
@@ -130,14 +148,6 @@ http://local.adguard.org/?type=sfbr-script&ltt=3791153a0628488f814a1d1aec2&u=htt
 (function() {try{if (document) {if (typeof document.tlewjutuqs !== 'undefined' && document.tlewjutuqs !== null)return;var heads = document.getElementsByTagName('head');if (heads.length > 0) {var head = heads[0];var style = document.createElement('style');head.appendChild(style);style.textContent = ".top-ads-mobile,iframe[src*=\"ad.kisscartoon.nz\"] { display: none !important; }";document.tlewjutuqs = 1;}}}catch(fjgytsugdrtes){}})();
 (function() {if (document) {document.querySelectorAll('img[src$="favicon.ico"], img[srcset$="favicon.ico"], picture > source[src$="favicon.ico"], picture > source[srcset$="favicon.ico"], video > source[src$="favicon.ico"], video > source[srcset$="favicon.ico"], audio > source[src$="favicon.ico"], audio > source[srcset$="favicon.ico"]').forEach(el => {if(el.localName === "frame"){el.style.setProperty("visibility", "hidden", "important");} else {el.style.setProperty("display", "none", "important");}});}})();
 (function() {if (document) {document.querySelectorAll('img[src$="gd/9299?md=weiEmI6cTM2gDLiMnI6ICNyQDe5EDOiwiIiJiOiQjM0g3N5AjIsIiciojIiwiIoJiO4ETM2wiIsJiOiUmbiwiI0JiOtEjMwwiI6JiOxgTM2wiIrJiOwwiI1JiOiICLiYmI6YWYsNXZsISZiojIilGZ5N2cyQTduVTYslzMiwiIvJiOmFGbzVGLi0mI6EjNyEDN0YzMwYDN2kDLicnI6ISJ3IUJyIDdpRHblViMyUyMBViMygURWNUJyAzNyADclIDMN9mdpV2clIDMlczQlIDM3MFdhJHSE5yQv1WJyITJyMUJyIzall3dvJHZzViMyUyMBVSNCVSNEVyNEJSf"], img[srcset$="gd/9299?md=weiEmI6cTM2gDLiMnI6ICNyQDe5EDOiwiIiJiOiQjM0g3N5AjIsIiciojIiwiIoJiO4ETM2wiIsJiOiUmbiwiI0JiOtEjMwwiI6JiOxgTM2wiIrJiOwwiI1JiOiICLiYmI6YWYsNXZsISZiojIilGZ5N2cyQTduVTYslzMiwiIvJiOmFGbzVGLi0mI6EjNyEDN0YzMwYDN2kDLicnI6ISJ3IUJyIDdpRHblViMyUyMBViMygURWNUJyAzNyADclIDMN9mdpV2clIDMlczQlIDM3MFdhJHSE5yQv1WJyITJyMUJyIzall3dvJHZzViMyUyMBVSNCVSNEVyNEJSf"], picture > source[src$="gd/9299?md=weiEmI6cTM2gDLiMnI6ICNyQDe5EDOiwiIiJiOiQjM0g3N5AjIsIiciojIiwiIoJiO4ETM2wiIsJiOiUmbiwiI0JiOtEjMwwiI6JiOxgTM2wiIrJiOwwiI1JiOiICLiYmI6YWYsNXZsISZiojIilGZ5N2cyQTduVTYslzMiwiIvJiOmFGbzVGLi0mI6EjNyEDN0YzMwYDN2kDLicnI6ISJ3IUJyIDdpRHblViMyUyMBViMygURWNUJyAzNyADclIDMN9mdpV2clIDMlczQlIDM3MFdhJHSE5yQv1WJyITJyMUJyIzall3dvJHZzViMyUyMBVSNCVSNEVyNEJSf"], picture > source[srcset$="gd/9299?md=weiEmI6cTM2gDLiMnI6ICNyQDe5EDOiwiIiJiOiQjM0g3N5AjIsIiciojIiwiIoJiO4ETM2wiIsJiOiUmbiwiI0JiOtEjMwwiI6JiOxgTM2wiIrJiOwwiI1JiOiICLiYmI6YWYsNXZsISZiojIilGZ5N2cyQTduVTYslzMiwiIvJiOmFGbzVGLi0mI6EjNyEDN0YzMwYDN2kDLicnI6ISJ3IUJyIDdpRHblViMyUyMBViMygURWNUJyAzNyADclIDMN9mdpV2clIDMlczQlIDM3MFdhJHSE5yQv1WJyITJyMUJyIzall3dvJHZzViMyUyMBVSNCVSNEVyNEJSf"], video > source[src$="gd/9299?md=weiEmI6cTM2gDLiMnI6ICNyQDe5EDOiwiIiJiOiQjM0g3N5AjIsIiciojIiwiIoJiO4ETM2wiIsJiOiUmbiwiI0JiOtEjMwwiI6JiOxgTM2wiIrJiOwwiI1JiOiICLiYmI6YWYsNXZsISZiojIilGZ5N2cyQTduVTYslzMiwiIvJiOmFGbzVGLi0mI6EjNyEDN0YzMwYDN2kDLicnI6ISJ3IUJyIDdpRHblViMyUyMBViMygURWNUJyAzNyADclIDMN9mdpV2clIDMlczQlIDM3MFdhJHSE5yQv1WJyITJyMUJyIzall3dvJHZzViMyUyMBVSNCVSNEVyNEJSf"], video > source[srcset$="gd/9299?md=weiEmI6cTM2gDLiMnI6ICNyQDe5EDOiwiIiJiOiQjM0g3N5AjIsIiciojIiwiIoJiO4ETM2wiIsJiOiUmbiwiI0JiOtEjMwwiI6JiOxgTM2wiIrJiOwwiI1JiOiICLiYmI6YWYsNXZsISZiojIilGZ5N2cyQTduVTYslzMiwiIvJiOmFGbzVGLi0mI6EjNyEDN0YzMwYDN2kDLicnI6ISJ3IUJyIDdpRHblViMyUyMBViMygURWNUJyAzNyADclIDMN9mdpV2clIDMlczQlIDM3MFdhJHSE5yQv1WJyITJyMUJyIzall3dvJHZzViMyUyMBVSNCVSNEVyNEJSf"], audio > source[src$="gd/9299?md=weiEmI6cTM2gDLiMnI6ICNyQDe5EDOiwiIiJiOiQjM0g3N5AjIsIiciojIiwiIoJiO4ETM2wiIsJiOiUmbiwiI0JiOtEjMwwiI6JiOxgTM2wiIrJiOwwiI1JiOiICLiYmI6YWYsNXZsISZiojIilGZ5N2cyQTduVTYslzMiwiIvJiOmFGbzVGLi0mI6EjNyEDN0YzMwYDN2kDLicnI6ISJ3IUJyIDdpRHblViMyUyMBViMygURWNUJyAzNyADclIDMN9mdpV2clIDMlczQlIDM3MFdhJHSE5yQv1WJyITJyMUJyIzall3dvJHZzViMyUyMBVSNCVSNEVyNEJSf"], audio > source[srcset$="gd/9299?md=weiEmI6cTM2gDLiMnI6ICNyQDe5EDOiwiIiJiOiQjM0g3N5AjIsIiciojIiwiIoJiO4ETM2wiIsJiOiUmbiwiI0JiOtEjMwwiI6JiOxgTM2wiIrJiOwwiI1JiOiICLiYmI6YWYsNXZsISZiojIilGZ5N2cyQTduVTYslzMiwiIvJiOmFGbzVGLi0mI6EjNyEDN0YzMwYDN2kDLicnI6ISJ3IUJyIDdpRHblViMyUyMBViMygURWNUJyAzNyADclIDMN9mdpV2clIDMlczQlIDM3MFdhJHSE5yQv1WJyITJyMUJyIzall3dvJHZzViMyUyMBVSNCVSNEVyNEJSf"]').forEach(el => {if(el.localName === "frame"){el.style.setProperty("visibility", "hidden", "important");} else {el.style.setProperty("display", "none", "important");}});}})();
-
-
-@@||yps.link/login/twlogin.php?cururl=https%3A%2F%2Fsxyprn.com%2F$document,domain=yps.link
-@@||yps.link/login/tw.php?oauth_token=mttTxgAAAAAA6lERAAABeX_DmnE&oauth_verifier=v92ubswotrLXBcJFTqVu81Fu2FyYG8YI$document,domain=yps.link
-@@||yps.link/login/tw.php?oauth_token=qS0uqQAAAAAA6lERAAABeX_D_OA&oauth_verifier=paS73Cvu71o4Qvl8QUE6ke7TVIZfjdJU$document,domain=yps.link
-
-
-gjqhufkamcoc.com
 https://gjqhufkamcoc.com/qk.html?_=e4%20AdscoreInit%20is%20not%20defined&v=4&gMjorfix=4595327&minBid=&WyFkPQjo=0:1,0&CQbeWZjY=&dJYSorjR=https%3A%2F%2Fskymovieshd.kim%2Fmovie%2FFareb-(2021)-UNRATED-720p-HEVC-HDRip-WOOW-Originals-Hindi-Short-Film-x265-AAC-%255b200MB%255d.html&s=424,918,1,424,918,0$important
 ||gjqhufkamcoc.com/qk.html?_=e4%20AdscoreInit%20is%20not%20defined&v=4&gMjorfix=4595327&minBid=&WyFkPQjo=0:1,0&CQbeWZjY=&dJYSorjR=https%3A%2F%2Fskymovieshd.kim%2Fmovie%2FFareb-(2021)-UNRATED-720p-HEVC-HDRip-WOOW-Originals-Hindi-Short-Film-x265-AAC-%255b200MB%255d.html&s=424,918,1,424,918,0$other,domain=skymovieshd.kim,important
 
@@ -147,7 +157,6 @@ https://gjqhufkamcoc.com/qk.html?_=e4%20AdscoreInit%20is%20not%20defined&v=4&gMj
 totentacruelor.com
 https://totentacruelor.com/9?z=3372123&ng=1&ix=0&pt=0&np=1&gp=-1&bp=-1&nw=1&nb=1&sw=424&sh=918&pl=http%3A%2F%2Fzooqle.dirproxy.org%2Foffice-scandal-2020-hindi-unrated-kooku-video-exclusive-720p-web-xkele.html&wy=0&wx=0&ww=424&wh=790&cw=980&wiw=980&wih=1825&wfc=3&sah=918&drf=http%3A%2F%2Fzooqle.dirproxy.org%2Fsearch%3Fq%3Dkooku&hil=2&ist=1$important
 ||totentacruelor.com/9?z=3372123&ng=1&ix=0&pt=0&np=1&gp=-1&bp=-1&nw=1&nb=1&sw=424&sh=918&pl=http%3A%2F%2Fzooqle.dirproxy.org%2Foffice-scandal-2020-hindi-unrated-kooku-video-exclusive-720p-web-xkele.html&wy=0&wx=0&ww=424&wh=790&cw=980&wiw=980&wih=1825&wfc=3&sah=918&drf=http%3A%2F%2Fzooqle.dirproxy.org%2Fsearch%3Fq%3Dkooku&hil=2&ist=1$xhr,important
-local.adguard.org
 http://local.adguard.org/?type=sfbr-script&ltt=3791153a0628488f814a1d1aec2&u=http%3A%2F%2Ftotentacruelor.com%2Fafu.php%3Fzoneid%3D3601325%26var%3D2632704&r=0.06622338073481893$important
 ||local.adguard.org/?type=sfbr-script&ltt=3791153a0628488f814a1d1aec2&u=http%3A%2F%2Ftotentacruelor.com%2Fafu.php%3Fzoneid%3D3601325%26var%3D2632704&r=0.06622338073481893$other,important
 ||local.adguard.org^$other,important
@@ -163,12 +172,6 @@ inspectorstrongerpill.com
 (function() {if (document) {document.querySelectorAll('img[src$="75/browse/9929.html"], img[srcset$="75/browse/9929.html"], picture > source[src$="75/browse/9929.html"], picture > source[srcset$="75/browse/9929.html"], video > source[src$="75/browse/9929.html"], video > source[srcset$="75/browse/9929.html"], audio > source[src$="75/browse/9929.html"], audio > source[srcset$="75/browse/9929.html"]').forEach(el => {if(el.localName === "frame"){el.style.setProperty("visibility", "hidden", "important");} else {el.style.setProperty("display", "none", "important");}});}})();
 (function() {if (document) {document.querySelectorAll('img[src$="widgets/widget_iframe.06c6ee58c3810956b7509218508c7b56.html?origin=https%3A%2F%2Fnuefliks.org"], img[srcset$="widgets/widget_iframe.06c6ee58c3810956b7509218508c7b56.html?origin=https%3A%2F%2Fnuefliks.org"], picture > source[src$="widgets/widget_iframe.06c6ee58c3810956b7509218508c7b56.html?origin=https%3A%2F%2Fnuefliks.org"], picture > source[srcset$="widgets/widget_iframe.06c6ee58c3810956b7509218508c7b56.html?origin=https%3A%2F%2Fnuefliks.org"], video > source[src$="widgets/widget_iframe.06c6ee58c3810956b7509218508c7b56.html?origin=https%3A%2F%2Fnuefliks.org"], video > source[srcset$="widgets/widget_iframe.06c6ee58c3810956b7509218508c7b56.html?origin=https%3A%2F%2Fnuefliks.org"], audio > source[src$="widgets/widget_iframe.06c6ee58c3810956b7509218508c7b56.html?origin=https%3A%2F%2Fnuefliks.org"], audio > source[srcset$="widgets/widget_iframe.06c6ee58c3810956b7509218508c7b56.html?origin=https%3A%2F%2Fnuefliks.org"]').forEach(el => {if(el.localName === "frame"){el.style.setProperty("visibility", "hidden", "important");} else {el.style.setProperty("display", "none", "important");}});}})();
 (function() {if (document) {document.querySelectorAll('img[src$="static/0026.html"], img[srcset$="static/0026.html"], picture > source[src$="static/0026.html"], picture > source[srcset$="static/0026.html"], video > source[src$="static/0026.html"], video > source[srcset$="static/0026.html"], audio > source[src$="static/0026.html"], audio > source[srcset$="static/0026.html"]').forEach(el => {if(el.localName === "frame"){el.style.setProperty("visibility", "hidden", "important");} else {el.style.setProperty("display", "none", "important");}});}})(); 
-
-
-
-
-
-
 
 ||157.185.188.1:443^
 ||168.235.198.1:80^$important
@@ -286,24 +289,6 @@ thingrealtape.com
 
 @@||googleapis.com^
 
-@@||cdn.liftoff.io^
-
-@@||cdn.liftoff.io^
-
-@@||firebase-settings.crashlytics.com^
-
-@@||firebase-settings.crashlytics.com^$app=com.playit.videoplayer
-
-@@||api.vmplayer2019.com/api/appconfig/config/get$app=com.playit.videoplayer,important
-
-@@||api.vmplayer2019.com/api/appconfig/config/get$app=com.playit.videoplayer,important
-
-@@||firebase-settings.crashlytics.com^$app=com.playit.videoplayer
-
-@@||api.vmplayer2019.com/api/appconfig/config/get$important
-
-||api.dkyweipsds.com^
-
 ||m.stripe.com^
 
 ||jscssfunny.com^
@@ -369,20 +354,6 @@ thingrealtape.com
 (function() {if (document) {document.querySelectorAll('img[src$="gtag/js?id=UA-175507756-1"], img[srcset$="gtag/js?id=UA-175507756-1"], picture > source[src$="gtag/js?id=UA-175507756-1"], picture > source[srcset$="gtag/js?id=UA-175507756-1"], video > source[src$="gtag/js?id=UA-175507756-1"], video > source[srcset$="gtag/js?id=UA-175507756-1"], audio > source[src$="gtag/js?id=UA-175507756-1"], audio > source[srcset$="gtag/js?id=UA-175507756-1"]').forEach(el => {if(el.localName === "frame"){el.style.setProperty("visibility", "hidden", "important");} else {el.style.setProperty("display", "none", "important");}});}})();
 
 (function() {if (document) {document.querySelectorAll('img[src$="feed/?zid=5804&ver=1&cnt=1"], img[srcset$="feed/?zid=5804&ver=1&cnt=1"], picture > source[src$="feed/?zid=5804&ver=1&cnt=1"], picture > source[srcset$="feed/?zid=5804&ver=1&cnt=1"], video > source[src$="feed/?zid=5804&ver=1&cnt=1"], video > source[srcset$="feed/?zid=5804&ver=1&cnt=1"], audio > source[src$="feed/?zid=5804&ver=1&cnt=1"], audio > source[srcset$="feed/?zid=5804&ver=1&cnt=1"]').forEach(el => {if(el.localName === "frame"){el.style.setProperty("visibility", "hidden", "important");} else {el.style.setProperty("display", "none", "important");}});}})();
-
-(function() {if (document) {document.querySelectorAll('img[src$=""], img[srcset$=""], picture > source[src$=""], picture > source[srcset$=""], video > source[src$=""], video > source[srcset$=""], audio > source[src$=""], audio > source[srcset$=""]').forEach(el => {if(el.localName === "frame"){el.style.setProperty("visibility", "hidden", "important");} else {el.style.setProperty("display", "none", "important");}});}})();
-
-@@||yps.link/login/twlogin.php?cururl=https%3A%2F%2Fsxyprn.com%2F$document,domain=yps.link
-
-@@||yps.link/login/tw.php?oauth_token=mttTxgAAAAAA6lERAAABeX_DmnE&oauth_verifier=v92ubswotrLXBcJFTqVu81Fu2FyYG8YI$document,domain=yps.link
-
-@@||yps.link/login/tw.php?oauth_token=qS0uqQAAAAAA6lERAAABeX_D_OA&oauth_verifier=paS73Cvu71o4Qvl8QUE6ke7TVIZfjdJU$document,domain=yps.link
-
-(function() {if (document) {document.querySelectorAll('img[src$="gd/9299?md=weiEmI6kDN0gDLiMnI6ICNyQDe5EDOiwiIiJiOiQzMwgHOwAjIsIiciojIoRHdwNnOv8yNzRXYyhGZuIWarV2LiwiIoJiO3YDOywiIsJiOiUmbiwiI0JiOtEjMwwiI6JiOzgTN1wiIrJiO0wiI1JiOiICLiYmI6YWYsNXZsISZiojIyEmd55ma4kzZ0BXNsh2biwiIvJiOmFGbzVGLi0mI6EjNyEzM4cjM5UjN0kDLicnI6ISJ3IUJyIDdpRHblViMyUyMBViMyEDOlIjQlIDMOFGd1JXYsViMwIUZhVHdpV2clIDMxITJyAjMwITMlIDMF52Zsl2coViMw00b2lWZlIDMIRkUpBXJyATJFJTJ4ATJ5MTJyITJyMUJyIzall3dvJHZzViMyUyMBVSNCVSNEVyNEJSf"], img[srcset$="gd/9299?md=weiEmI6kDN0gDLiMnI6ICNyQDe5EDOiwiIiJiOiQzMwgHOwAjIsIiciojIoRHdwNnOv8yNzRXYyhGZuIWarV2LiwiIoJiO3YDOywiIsJiOiUmbiwiI0JiOtEjMwwiI6JiOzgTN1wiIrJiO0wiI1JiOiICLiYmI6YWYsNXZsISZiojIyEmd55ma4kzZ0BXNsh2biwiIvJiOmFGbzVGLi0mI6EjNyEzM4cjM5UjN0kDLicnI6ISJ3IUJyIDdpRHblViMyUyMBViMyEDOlIjQlIDMOFGd1JXYsViMwIUZhVHdpV2clIDMxITJyAjMwITMlIDMF52Zsl2coViMw00b2lWZlIDMIRkUpBXJyATJFJTJ4ATJ5MTJyITJyMUJyIzall3dvJHZzViMyUyMBVSNCVSNEVyNEJSf"], picture > source[src$="gd/9299?md=weiEmI6kDN0gDLiMnI6ICNyQDe5EDOiwiIiJiOiQzMwgHOwAjIsIiciojIoRHdwNnOv8yNzRXYyhGZuIWarV2LiwiIoJiO3YDOywiIsJiOiUmbiwiI0JiOtEjMwwiI6JiOzgTN1wiIrJiO0wiI1JiOiICLiYmI6YWYsNXZsISZiojIyEmd55ma4kzZ0BXNsh2biwiIvJiOmFGbzVGLi0mI6EjNyEzM4cjM5UjN0kDLicnI6ISJ3IUJyIDdpRHblViMyUyMBViMyEDOlIjQlIDMOFGd1JXYsViMwIUZhVHdpV2clIDMxITJyAjMwITMlIDMF52Zsl2coViMw00b2lWZlIDMIRkUpBXJyATJFJTJ4ATJ5MTJyITJyMUJyIzall3dvJHZzViMyUyMBVSNCVSNEVyNEJSf"], picture > source[srcset$="gd/9299?md=weiEmI6kDN0gDLiMnI6ICNyQDe5EDOiwiIiJiOiQzMwgHOwAjIsIiciojIoRHdwNnOv8yNzRXYyhGZuIWarV2LiwiIoJiO3YDOywiIsJiOiUmbiwiI0JiOtEjMwwiI6JiOzgTN1wiIrJiO0wiI1JiOiICLiYmI6YWYsNXZsISZiojIyEmd55ma4kzZ0BXNsh2biwiIvJiOmFGbzVGLi0mI6EjNyEzM4cjM5UjN0kDLicnI6ISJ3IUJyIDdpRHblViMyUyMBViMyEDOlIjQlIDMOFGd1JXYsViMwIUZhVHdpV2clIDMxITJyAjMwITMlIDMF52Zsl2coViMw00b2lWZlIDMIRkUpBXJyATJFJTJ4ATJ5MTJyITJyMUJyIzall3dvJHZzViMyUyMBVSNCVSNEVyNEJSf"], video > source[src$="gd/9299?md=weiEmI6kDN0gDLiMnI6ICNyQDe5EDOiwiIiJiOiQzMwgHOwAjIsIiciojIoRHdwNnOv8yNzRXYyhGZuIWarV2LiwiIoJiO3YDOywiIsJiOiUmbiwiI0JiOtEjMwwiI6JiOzgTN1wiIrJiO0wiI1JiOiICLiYmI6YWYsNXZsISZiojIyEmd55ma4kzZ0BXNsh2biwiIvJiOmFGbzVGLi0mI6EjNyEzM4cjM5UjN0kDLicnI6ISJ3IUJyIDdpRHblViMyUyMBViMyEDOlIjQlIDMOFGd1JXYsViMwIUZhVHdpV2clIDMxITJyAjMwITMlIDMF52Zsl2coViMw00b2lWZlIDMIRkUpBXJyATJFJTJ4ATJ5MTJyITJyMUJyIzall3dvJHZzViMyUyMBVSNCVSNEVyNEJSf"], video > source[srcset$="gd/9299?md=weiEmI6kDN0gDLiMnI6ICNyQDe5EDOiwiIiJiOiQzMwgHOwAjIsIiciojIoRHdwNnOv8yNzRXYyhGZuIWarV2LiwiIoJiO3YDOywiIsJiOiUmbiwiI0JiOtEjMwwiI6JiOzgTN1wiIrJiO0wiI1JiOiICLiYmI6YWYsNXZsISZiojIyEmd55ma4kzZ0BXNsh2biwiIvJiOmFGbzVGLi0mI6EjNyEzM4cjM5UjN0kDLicnI6ISJ3IUJyIDdpRHblViMyUyMBViMyEDOlIjQlIDMOFGd1JXYsViMwIUZhVHdpV2clIDMxITJyAjMwITMlIDMF52Zsl2coViMw00b2lWZlIDMIRkUpBXJyATJFJTJ4ATJ5MTJyITJyMUJyIzall3dvJHZzViMyUyMBVSNCVSNEVyNEJSf"], audio > source[src$="gd/9299?md=weiEmI6kDN0gDLiMnI6ICNyQDe5EDOiwiIiJiOiQzMwgHOwAjIsIiciojIoRHdwNnOv8yNzRXYyhGZuIWarV2LiwiIoJiO3YDOywiIsJiOiUmbiwiI0JiOtEjMwwiI6JiOzgTN1wiIrJiO0wiI1JiOiICLiYmI6YWYsNXZsISZiojIyEmd55ma4kzZ0BXNsh2biwiIvJiOmFGbzVGLi0mI6EjNyEzM4cjM5UjN0kDLicnI6ISJ3IUJyIDdpRHblViMyUyMBViMyEDOlIjQlIDMOFGd1JXYsViMwIUZhVHdpV2clIDMxITJyAjMwITMlIDMF52Zsl2coViMw00b2lWZlIDMIRkUpBXJyATJFJTJ4ATJ5MTJyITJyMUJyIzall3dvJHZzViMyUyMBVSNCVSNEVyNEJSf"], audio > source[srcset$="gd/9299?md=weiEmI6kDN0gDLiMnI6ICNyQDe5EDOiwiIiJiOiQzMwgHOwAjIsIiciojIoRHdwNnOv8yNzRXYyhGZuIWarV2LiwiIoJiO3YDOywiIsJiOiUmbiwiI0JiOtEjMwwiI6JiOzgTN1wiIrJiO0wiI1JiOiICLiYmI6YWYsNXZsISZiojIyEmd55ma4kzZ0BXNsh2biwiIvJiOmFGbzVGLi0mI6EjNyEzM4cjM5UjN0kDLicnI6ISJ3IUJyIDdpRHblViMyUyMBViMyEDOlIjQlIDMOFGd1JXYsViMwIUZhVHdpV2clIDMxITJyAjMwITMlIDMF52Zsl2coViMw00b2lWZlIDMIRkUpBXJyATJFJTJ4ATJ5MTJyITJyMUJyIzall3dvJHZzViMyUyMBVSNCVSNEVyNEJSf"]').forEach(el => {if(el.localName === "frame"){el.style.setProperty("visibility", "hidden", "important");} else {el.style.setProperty("display", "none", "important");}});}})();
-
-(function() {if (document) {document.querySelectorAll('img[src$="1clkn/10770"], img[srcset$="1clkn/10770"], picture > source[src$="1clkn/10770"], picture > source[srcset$="1clkn/10770"], video > source[src$="1clkn/10770"], video > source[srcset$="1clkn/10770"], audio > source[src$="1clkn/10770"], audio > source[srcset$="1clkn/10770"]').forEach(el => {if(el.localName === "frame"){el.style.setProperty("visibility", "hidden", "important");} else {el.style.setProperty("display", "none", "important");}});}})();
-
-gjqhufkamcoc.com
 
 https://gjqhufkamcoc.com/qk.html?_=e4%20AdscoreInit%20is%20not%20defined&v=4&gMjorfix=4595327&minBid=&WyFkPQjo=0:1,0&CQbeWZjY=&dJYSorjR=https%3A%2F%2Fskymovieshd.kim%2Fmovie%2FFareb-(2021)-UNRATED-720p-HEVC-HDRip-WOOW-Originals-Hindi-Short-Film-x265-AAC-%255b200MB%255d.html&s=424,918,1,424,918,0
 
