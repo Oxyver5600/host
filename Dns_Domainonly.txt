@@ -1,0 +1,31 @@
+maribacaberita.com/
+dns://jmacs.maribacaberita.com/
+dns-unfiltered.adguard.com/dns-query
+https://dns-unfiltered.adguard.com/dns-query
+attr.union.ucweb.com/
+dns://attr.union.ucweb.com/
+aliapp.org
+47.91.170.222:80
+us-unpm-upaas.ucweb.com/
+dns-unfiltered.adguard.com/dns-query
+157.185.188.2
+sf-unpm-upaas.ucweb.com
+CNAME, sf-unpm-upaas.ucweb.com.
+A, 157.185.188.2
+us-unpm-upaas.ucweb.com
+ucweb.com
+snowdayonline.xyz
+85.159.233.158
+||51.255.74.45^$important
+168.235.198.1:80
+||la-ucc-upaas.ucweb.com^
+||us-ucdc-upaas.ucweb.com^
+||api.v-mate.mobi^
+||apiuccenter.ucweb.com^
+||dns://us-ucdc-upaas.ucweb.com/
+||la4-userver-upaas.ucweb.com^
+||alt7-mtalk.google.com^
+||mtalk.google.com^
+||pagead2.googlesyndication.com^
+||media.takealot.com^
+||r1---sn-jxaaj15-wocl.googlevideo.com^
