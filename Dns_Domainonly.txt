@@ -1,17 +1,21 @@
-maribacaberita.com/
-dns://jmacs.maribacaberita.com/
+evosrv.com
+la4lbg.uae2grp.ucweb.com
+||157.185.188.1^
+||logssug.ucweb.com^
+maribacaberita.com
+jmacs.maribacaberita.com
 dns-unfiltered.adguard.com/dns-query
-https://dns-unfiltered.adguard.com/dns-query
+dns-unfiltered.adguard.com/dns-query
 attr.union.ucweb.com/
-dns://attr.union.ucweb.com/
+attr.union.ucweb.com/
 aliapp.org
 47.91.170.222:80
 us-unpm-upaas.ucweb.com/
 dns-unfiltered.adguard.com/dns-query
 157.185.188.2
 sf-unpm-upaas.ucweb.com
-CNAME, sf-unpm-upaas.ucweb.com.
-A, 157.185.188.2
+sf-unpm-upaas.ucweb.com.
+157.185.188.2
 us-unpm-upaas.ucweb.com
 ucweb.com
 snowdayonline.xyz
