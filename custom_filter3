@@ -1,5 +1,34 @@
 https://filters.adtidy.org/extension/ublock/filters/2_optimized.txt
 
+
+||157.185.188.1:443^
+||168.235.198.1:80^$important
+||logssug.ucweb.com^$important
+||eatcells.com^
+||creative.leojmp.com^
+||stripchat.com^
+||emo.v-mate.mobi^$important
+||creative.mdyjmp.com^
+||216.182.231.205^$important
+||10.2.2.50^$important
+||51.255.74.45^$important
+| |85.159.233.158^
+85.159.233.158
+installnow.pro
+thingrealtape.com
+||95.213.218.168^$important
+||95.213.218.168^
+||95.213.218.168/?ucid=o5rC-GZTQgRCchZ1a2RZGEFxFn9obVkFSnoYamo3DQMRekl1
+||ucads-cdn.ucweb.com^
+||plugin.ucads.ucweb.com^
+@@||yps.link^
+@@||yps.link/login/twlogin.php
+||us-ucdc-upaas.ucweb.com/
+||update-it-now.com
+||profitsurvey365.online
+||https://snowdayonline.xyz/snowline/xlx4.php
+||snowdayonline.xyz
+
 ||u.uc123.com^$important
 
 ||holmeshelp.ucweb.com^$important
