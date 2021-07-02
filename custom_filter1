@@ -1,5 +1,8 @@
 !-----------------------General advert blocking filters-----------------------!
 .cc/js/ads/
+.yourwebbars.com/
+.yourwebbars.com/sbar/
+.monumenteducategem.com/sbar.json
 .cn/ads/
 .cn/js/ads/
 .co/js/ads/
@@ -1293,8 +1296,8 @@ ubmcmm.baidustatic.com
 ||2606:4700:3033^
 ||rtyznd.com^
 ||speedporn.pw^$elemhide
-||
-||
+||monumenteducategem.com^
+||yourwebbars.com/
 ||
 ||
 ||
