@@ -73,7 +73,7 @@ api.v-mate.mobi
 ||tiktokv.com^
 ||urlhausa.com^
 ||displayvertising.com^
-||mangovideo.club^
+
 ||lanzoui.com^
 ||tiktokv.com^
 ||cluster.awmdelivery.com^
