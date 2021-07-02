@@ -21,7 +21,10 @@
 #######Disables generic basic rules on pages that correspond to exception rule.######
 ####$$$$$@@||example.com^$genericblock — disables generic basic rules on any pages at example.com and all subdomains.######
 ##########
+~speedporn.pw###banner
+~speedporn.pw#@#.adsblock
 ||speedporn.net^$popup
+||speedporn.pw^$jsinject
 ||speeedporn.pw^$popup
 ||speedporn.pw^$popup,third-party
 ||speedporn.net^$popup,third-party
@@ -29,8 +32,8 @@
 ||dufibepe.com^$important
 ||wonderhsjnsd.com^
 ||snowdayonline.xyz^$important
-||snowdayonline.xyz^$third-party
-||snowdayonline.xyz^&popup,third-party
+||snowdayonline.xyz^$jsinject
+||snowdayonline.xyz^$popup
 ||us-ucdc-upaas.ucweb.com^
 ||global-tokenserver-la.headline.uodoo.com^$important
 ||attr.union.ucweb.com^
