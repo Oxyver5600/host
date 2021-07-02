@@ -2,7 +2,8 @@
 ! Title:  DNS filter (Optimized) (Saeed Akbar
 
 ! Description: Filter composed of several other filters (AdGuard Base filter, Social Media filter, Tracking Protection filter, Mobile Ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
-
+$##$############whitelist##########
+@@mangovideo.club^
 ||
 ||
 ||
